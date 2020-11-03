@@ -1,0 +1,50 @@
+
+ div#hello{color:red;
+font-weight:normal;
+font-size:50px;
+font-style:italic;
+text-decoration:underline;
+border:5px solid black;
+padding:10px;
+margin:50px;
+width:300px;
+border-style:solid;
+outline:5px solid green;
+text-align:center;
+font-family:Algerian;
+
+}
+
+
+table#table{border-collapse:collapse;
+}
+thead#thead{color:White;
+background:Black;
+}
+tr#first{color:white;
+background:blue;
+font-family:broadway;}
+
+h1#er{color:orange;
+ font-family: 'Aguafina Script';
+font-size: 80px; 
+}
+tr#rd{color:red;
+background:yellow;}
+
+
+h1#hello{color:green;
+}
+
+@font-face{
+	font-family:talha;
+	src:url(GreatVibes-Regular.woff)
+}
+span{color:white;
+display:block;
+font-size: 30px;
+background:black;
+padding:20px;
+width:400px;
+}
+span img{max-width:100%}

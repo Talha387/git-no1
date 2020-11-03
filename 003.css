@@ -1,0 +1,89 @@
+span{color:white;
+display:block;
+font-size: 30px;
+background:black;
+padding:20px;
+width:400px;
+text-align:center;position:relative;
+}
+span img{max-width:100%}
+
+div#block{
+    color: #ffffff;
+    background: linear-gradient( orange,black,green,pink,blue);
+    text-align:center;
+    font-size:35px;
+    width:250px;
+    padding:20px;
+    position:fixed;
+    right:0;
+    top:0;
+    border-bottom-left-radius:50px;
+    box-shadow: -4px 2px 0px 4px #008eff;
+    text-shadow: -4px 2px 4px #404020;
+    font-family:arial black;
+ }
+
+div#second{height:1000px;
+font-size:50px;
+background:pink;
+width:200px;}
+
+div#tea {background:yellow;
+color:Blue;
+font-size:30px;
+width:200px;
+text-align:center;
+padding:30px;
+border:2px solid blue;
+margin-left: 500px;
+
+}
+a:hover{color:green;
+background:yellow;
+padding:10px;}
+div#tea:hover{background:pink;
+padding:60px;
+transition:all 1.2s;
+transform:rotate(360deg);
+transition-delay:0.5s;}
+
+div#css{color:blue;
+font-size:30px;
+background:#7ae200;
+width:100px;
+text-align:center;
+font-family:arial;
+border:1px solid black;
+border-radius:3px;
+padding:2px;
+margin-left:200px;
+
+animation-name:jao;
+animation-duration:1s;
+}
+@keyframes jao{
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg)}
+
+}
+a#anchor{margin:0;
+padding:0;
+background: #2f5a00;
+padding:10px;
+padding-left: 25px;
+padding-right: 25px;
+text-decoration:none;
+font-family:arial;
+font-weight:bold;
+font-size:18px;
+border-radius:3px;
+border:1px solid #006fc7;
+color: white;}
+div#amar{width:500px;
+margin:auto;
+padding:50px;
+border:1px solid black;
+
+}
+a#anchor:hover{background:black}
